@@ -1,0 +1,17 @@
+﻿@using MVCGenel.Data
+@model Kullanici
+<form asp-controller="ANK16" asp-action="Form">
+    <div>
+        <label>Ad: </label>
+        <input asp-for="Ad"/>
+    </div>
+    <div>
+        <label>Soyad: </label>
+        <input asp-for="Soyad"/>
+    </div>
+    <div>
+        <label>Yaş: </label>
+        <input asp-for="Yas"/>
+    </div>
+    <input type="submit" value="Giriş Yap"/>
+</form>

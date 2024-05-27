@@ -1,0 +1,54 @@
+﻿@{
+    #region kodların sadece .cshtml e yazılması
+    // int sayi = new Random().Next(1, 101);
+    // if (sayi % 2 == 0)
+    // {
+    //     <p style="background-color: red">Sayınız @sayi 'dır ve çifttir.</p>
+    // }
+    // else
+    // {
+    //     <p style="background-color: green">Sayınız @sayi 'dır ve tektir.</p>
+    // }
+    #endregion
+
+    #region ViewBag ile controllerda rastgele sayiyi üretme
+    // if (ViewBag.Sayi % 2 == 0)
+    // {
+    //     <p style="background-color: red">Sayınız @ViewBag.Sayi 'dır ve çifttir.</p>
+    // }
+    // else
+    // {
+    //     <p style="background-color: green">Sayınız @ViewBag.Sayi ' dır ve tektir.</p>
+    // }
+    #endregion
+
+    #region ViewData ile 
+    // if (ViewBag.Sayi % 2 == 0)
+    // {
+    //     <p style="background-color: red">Sayınız @ViewData["Sayi"] 'dır ve çifttir.</p>
+    // }
+    // else
+    // {
+    //     <p style="background-color: green">Sayınız @ViewData["Sayi"] '  dır ve tektir.</p>
+    // }
+    #endregion
+
+    #region TempData ile
+    if ((int) TempData["Sayi"] % 2 == 0)
+    {
+        <p style="background-color: red">Çifttir @TempData["Sayi"]</p>
+    }
+    else
+    {
+        <p style="background-color:green">Tektir @TempData["Sayi"]</p>
+    }
+    #endregion
+
+
+}
+<google></google>
+<br>
+<hivda></hivda>
+<br>
+<kontrol sayi="55"></kontrol>
+<kontrol sayi="50"></kontrol>

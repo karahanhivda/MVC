@@ -1,0 +1,18 @@
+﻿@{
+    int i;
+    for(i=1; i<=20; i++)
+    {
+        if (i % 3 == 0 && i%7!=0)
+        {
+            <p style="background-color:green">@i sadece 3 ile tam bölünüyor.</p>
+        }
+        else if (i % 7 == 0 && i%3!=0)
+        {
+            <p style="background-color:red">@i sadece 7 ile tam bölünüyor.</p>
+        }
+        else
+        {
+            <p style="background-color:mediumpurple">@i 3 ve 7 ile tam bölünemiyor.</p>
+        }
+    }
+}
