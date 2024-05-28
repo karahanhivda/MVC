@@ -15,3 +15,12 @@
     </div>
     <input type="submit" value="Giriş Yap"/>
 </form>
+
+@if(TempData["Hata"] != null)
+{
+    <div class="alert alert-danger">
+        @TempData["Hata"]
+    </div>
+}
+
+

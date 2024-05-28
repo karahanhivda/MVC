@@ -29,16 +29,26 @@ namespace MVCGenelControllers
         {
             return View();
         }
-        public IActionResult Form(Kullanici kullanici)
+
+        public IActionResult Form()
+        {
+            return View();
+        }
+
+
+        [HttpPost]
+            public IActionResult Form(Kullanici kullanici)
         {
             if (kullanici.Yas < 18)
             {
                 TempData["Hata"] = "Yaşınız uygun değil!";
-                return View("Form");
+                return View();
             }
             else
             {
-                TempData["Kisi"] = kullanici;
+                TempData["Ad"] = kullanici.Ad;
+                TempData["Soyad"] = kullanici.Soyad;
+
                 return RedirectToAction("Anasayfa");
             }
             
