@@ -17,6 +17,7 @@ namespace MVCGenelControllers
         {
             int sayi = new Random().Next(1, 101);
             //ViewBag.Sayi = sayi;
+            ///
             ViewData["Sayi"] = sayi;
             TempData["Sayi"] = sayi;
             return View();
