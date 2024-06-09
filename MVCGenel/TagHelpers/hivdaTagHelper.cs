@@ -4,7 +4,7 @@ using System.Xml.Serialization;
 namespace MVCGenel.TagHelpers
 {
     public class hivdaTagHelper : TagHelper
-    {
+    {       
         public override void Process(TagHelperContext context, TagHelperOutput output)
         {
             output.TagName = "a";

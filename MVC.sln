@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCMuhasebeProjesi", "MVCMuhasebeProjesi\MVCMuhasebeProjesi.csproj", "{17BE5318-6548-49B4-8073-F7D77BDEC95E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCGenel", "MVCGenel\MVCGenel.csproj", "{347EBB19-F918-46F3-81CE-E603998B97A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVCGenel", "MVCGenel\MVCGenel.csproj", "{347EBB19-F918-46F3-81CE-E603998B97A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KucukUnluUyumu_CustomTagHelper", "KucukUnluUyumu_CustomTagHelper\KucukUnluUyumu_CustomTagHelper.csproj", "{7D0D087C-E9C0-46CE-9070-4B446A5E721F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{347EBB19-F918-46F3-81CE-E603998B97A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{347EBB19-F918-46F3-81CE-E603998B97A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{347EBB19-F918-46F3-81CE-E603998B97A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D0D087C-E9C0-46CE-9070-4B446A5E721F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D0D087C-E9C0-46CE-9070-4B446A5E721F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D0D087C-E9C0-46CE-9070-4B446A5E721F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D0D087C-E9C0-46CE-9070-4B446A5E721F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
