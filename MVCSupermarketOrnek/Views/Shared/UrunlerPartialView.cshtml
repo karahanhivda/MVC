@@ -1,0 +1,25 @@
+﻿@using MVCSupermarketOrnek.Data
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model List<Urun>
+    <table class="table table-dark table-hover">
+        <tr>
+            <td>Ad</td>
+            <td>Fiyat</td>
+            <td>StokDurumu</td>
+        </tr>
+         
+
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td> @item.Adı </td>
+                <td> @item.Fiyat </td>
+                <td> @(item.StokDurumu ? "Var" : "Yok") </td>
+            </tr>
+        }
+
+    </table>
+}
